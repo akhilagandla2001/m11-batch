@@ -30,6 +30,8 @@ test('lead module',async ({page}) => {
     }
     await page.locator('//img[@src="themes/softed/images/user.PNG"]').hover()
     await page.locator('//a[text()="Sign Out"]').click()
+    console.log('hello');
+    
 })
 
 test('ddt',async ({page}) => {
