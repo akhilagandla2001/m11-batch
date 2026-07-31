@@ -73,7 +73,7 @@ test('pom',async ({page}) => {
     await signin.button.click()
 })
 
-test.only('pom2',async ({page}) => {
+test('pom2',async ({page}) => {
     let sign=new loginclass(page)
     await sign.launchurl(login.url)
     await sign.details(login.username,login.password)
